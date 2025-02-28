@@ -1,0 +1,122 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  margin: 50px auto;
+  background-color: #F9FAFB;
+  padding: 20px 30px;
+  border-radius: 16px;
+  box-shadow: 1px 1px 20px rgba(31, 206, 0, 0.2);
+}
+
+h4 {
+  font-size: 20px;
+  margin: 0 !important;
+  padding: 10px 0;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 10px 0;
+  position: relative;
+}
+
+.input-container label {
+  font-size: 14px;
+  padding: 5px 0;
+}
+
+input[type="email"], input[type="password"], input[type="text"] {
+  height: 35px;
+  font-size: 16px;
+  background-color: white;
+  border: 1px solid black;
+  outline: 0;
+  border-radius: 8px;
+  padding: 0 10px;
+}
+
+.password-input {
+  padding-right: 35px !important;
+  padding-top: 1.5px !important;
+}
+
+.password-toggle-button {
+  position: absolute;
+  top: 36px;
+  width: 22px;
+  height: 22px;
+  right: 10px;
+  cursor: pointer;
+}
+
+button[type='submit'] {
+  background-color: #12A833;
+  border: 3px solid transparent;
+  padding: 5px 10px;
+  border-radius: 6px;
+  color: white;
+  box-shadow: 2px 2px 5px solid black;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+button[type='submit']:focus {
+  outline: none;
+}
+
+button[type='submit']:hover {
+  border: 3px solid #002b09;
+}
+
+.otp-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.otp-input {
+  width: 40px !important;
+  height: 50px !important;
+  text-align: center;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+}
+
+.home-container button {
+  width: 100px;
+  margin: auto;
+  background-color: black;
+  color: white;
+  height: 36px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.home-container button:focus {
+  outline: none;
+}
+
+.home-container button:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
